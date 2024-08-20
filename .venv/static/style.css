@@ -1,0 +1,171 @@
+/* Reset de margin, padding e box-sizing para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o body */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://www.postdigital.cc/blog/wp-content/uploads/2022/08/as-5-melhores-plataformas-para-blog.jpg') no-repeat center center fixed,
+                linear-gradient(to bottom, #f5f5dc, #e0e0e0); /* Gradiente bege para cinza suave */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    color: #8c5f3d; /* Cor de texto escura para contraste com o fundo claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente para o cabeçalho */
+    color: #333;
+    padding: 20px 0;
+    position: relative;
+    z-index: 10; /* Garante que o cabeçalho esteja acima da imagem de fundo */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-content {
+    flex: 1;
+    text-align: center;
+}
+
+.header-content h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #555; /* Cor do texto da frase de efeito */
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333; /* Cor do título */
+}
+
+.header-container .button {
+    margin-left: auto;
+    padding: 12px 20px;
+    background-color: #8c5f3d; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-container .button:hover {
+    background-color: #6d4f28; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+    background: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente para o rodapé */
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+    z-index: 10; /* Garante que o rodapé esteja acima da imagem de fundo */
+}
+
+/* Estilo dos campos de formulário */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilo do botão */
+button, .button {
+    padding: 12px 20px;
+    background-color: #004aad;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+button:hover, .button:hover {
+    background-color: #003a8c;
+}
+
+/* Estilo dos cartões de postagem */
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-card img {
+    width: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 300px; /* Define uma altura máxima para a imagem */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-card h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.post-card p {
+    margin-bottom: 15px;
+}
+
+/* Estilo para o conteúdo do post */
+article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; /* Limita a largura da imagem ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 500px; /* Define uma altura máxima para a imagem */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
