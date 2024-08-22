@@ -14,15 +14,15 @@
     </header>
     <main class="container">
         <h1>Editar Postagem</h1>
-        <form method="POST">
+        <form method="POST" enctype="multipart/form-data">
             <label for="title">Título:</label>
             <input type="text" id="title" name="title" value="{{ post.title }}" required>
 
             <label for="body">Corpo:</label>
             <textarea id="body" name="body" rows="10" required>{{ post.body }}</textarea>
 
-            <label for="image_url">URL da Imagem:</label>
-            <input type="text" id="image_url" name="image_url" value="{{ post.image_url }}">
+            <label for="image">Imagem:</label>
+            <input type="file" id="image" name="image">
 
             <button type="submit">Salvar</button>
         </form>
@@ -35,5 +35,7 @@
     </footer>
 </body>
 </html>
+
+
 
 

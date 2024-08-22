@@ -61,6 +61,7 @@ header {
     font-size: 16px;
     cursor: pointer;
     text-decoration: none;
+    display: inline-block;
 }
 
 .header-container .button:hover {
@@ -86,6 +87,12 @@ input, textarea {
     border-radius: 4px;
     background-color: #f5f5f5;
     color: #333;
+}
+
+/* Estilo para inputs de tipo file */
+input[type="file"] {
+    padding: 5px;
+    background-color: #fff;
 }
 
 /* Estilo do botão */
@@ -157,15 +164,3 @@ article img {
     border-radius: 8px;
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
