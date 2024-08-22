@@ -95,7 +95,13 @@ input[type="file"] {
     background-color: #fff;
 }
 
-/* Estilo do botão */
+/* Estilo dos botões de formulário */
+.form-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; /* Espaço entre os botões */
+}
+
 button, .button {
     padding: 12px 20px;
     background-color: #004aad;
@@ -106,7 +112,7 @@ button, .button {
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 button:hover, .button:hover {
@@ -164,3 +170,5 @@ article img {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+

@@ -24,9 +24,11 @@
             <label for="image">Imagem:</label>
             <input type="file" id="image" name="image">
 
-            <button type="submit">Salvar</button>
+            <div class="form-buttons">
+                <button type="submit">Salvar</button>
+                <a href="{{ url_for('index') }}" class="button">Cancelar</a>
+            </div>
         </form>
-        <a href="{{ url_for('index') }}" class="button">Cancelar</a>
     </main>
     <footer>
         <div class="container">
@@ -35,6 +37,8 @@
     </footer>
 </body>
 </html>
+
+
 
 
 
